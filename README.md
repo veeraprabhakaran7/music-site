@@ -1,1 +1,38 @@
-# music-site
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Stylish Music Player</title>
+  <style>
+    body {
+      text-align: center;
+      font-family: sans-serif;
+      background: linear-gradient(to right, #f9d5ec, #fce1e4);
+      padding: 100px;
+    }
+
+    .player {
+      background: #fff;
+      padding: 30px;
+      border-radius: 15px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+      display: inline-block;
+    }
+
+    audio {
+      width: 300px;
+      outline: none;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="player">
+    <h2>music</h2>
+    <audio controls>
+  <source src="climax.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+</div>
+
+</body>
+</html># music-site
