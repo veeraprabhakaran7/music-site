@@ -8,6 +8,6 @@
 <body>
     <h1>Click below to play the music</h1>
     <!-- Link to play the music -->
-    <a href="https://github.com/veeraprabhakaran7/music-site/blob/main/motherday%20site/climax.mp3" target="_blank">Play Music</a>
+    <a href="climax.mp3" target="_blank">Play Music</a>
 </body>
 </html>
