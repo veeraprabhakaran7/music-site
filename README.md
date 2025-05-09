@@ -1,38 +1,13 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Stylish Music Player</title>
-  <style>
-    body {
-      text-align: center;
-      font-family: sans-serif;
-      background: linear-gradient(to right, #f9d5ec, #fce1e4);
-      padding: 100px;
-    }
-
-    .player {
-      background: #fff;
-      padding: 30px;
-      border-radius: 15px;
-      box-shadow: 0 4px 20px rgba(0,0,0,0.1);
-      display: inline-block;
-    }
-
-    audio {
-      width: 300px;
-      outline: none;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Play Music</title>
 </head>
 <body>
-
-  <div class="player">
-    <h2>music</h2>
-    <audio controls>
-  <source src="climax.mp3" type="audio/mpeg">
-  Your browser does not support the audio element.
-</audio>
-</div>
-
+    <h1>Click below to play the music</h1>
+    <!-- Link to play the music -->
+    <a href="your-music-file.mp3" target="_blank">Play Music</a>
 </body>
-</html># music-site
+</html>
