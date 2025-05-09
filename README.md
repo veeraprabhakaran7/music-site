@@ -1,13 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Play Music</title>
+  <title>Music Player</title>
 </head>
 <body>
-    <h1>Click below to play the music</h1>
-    <!-- Link to play the music -->
-    <a href="climax.mp3" target="_blank">Play Music</a>
+  <h2>Click Play to listen the music</h2>
+  <audio controls>
+    <source src="https://raw.githubusercontent.com/veeraprabhakaran7/music site/main/mymusic.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
 </body>
 </html>
